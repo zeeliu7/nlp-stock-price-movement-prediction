@@ -1,4 +1,4 @@
-# Financial News and Short-Horizon Market Reactions: FinBERT Baselines on IV-Normalized Price Movements and Volatility
+# Financial News and Short-Horizon Market Reactions: FinBERT Based NLP Transformers for Normalized Prices and Volatility
 *by Yifei Fu, Zhonghao Liu, and Shilun Dai from Columbia University*
 
 Text models are increasingly deployed in financial markets, including ultra-low- latency systems where news feeds can trigger trades at millisecond timescales. In this project we ask a simpler but fundamental question: given realistic minute-level news and price data, how well can a pretrained financial language model, FinBERT, predict short-horizon market reactions when labels are carefully normalized by option-implied volatility?
